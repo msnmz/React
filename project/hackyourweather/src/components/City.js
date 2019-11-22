@@ -2,6 +2,7 @@ import React from "react";
 import "../styles/City.css";
 import CityHeader from "./CityHeader";
 import CityWeather from "./CityWeather";
+import CityDetailList from "./CityDetailList";
 
 function City(props) {
   return (
@@ -11,6 +12,7 @@ function City(props) {
         title={props.weather.title}
         subtitle={props.weather.subtitle}
       />
+      <CityDetailList details={props.details} />
     </div>
   );
 }
