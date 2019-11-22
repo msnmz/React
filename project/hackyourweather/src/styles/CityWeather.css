@@ -1,0 +1,13 @@
+.city-weather {
+  margin: 15px 0 10px;
+}
+
+.city-weather-title {
+  text-align: left;
+  font-weight: bolder;
+}
+
+.city-weather-subtitle {
+  text-align: left;
+  font-weight: normal;
+}
