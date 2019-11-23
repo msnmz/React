@@ -9,8 +9,8 @@ function City(props) {
     <div className="city">
       <CityHeader name={props.city.name} country={props.city.country} />
       <CityWeather
-        title={props.weather.title}
-        subtitle={props.weather.subtitle}
+        main={props.weather.main}
+        description={props.weather.description}
       />
       <CityDetailList details={props.details} />
     </div>
