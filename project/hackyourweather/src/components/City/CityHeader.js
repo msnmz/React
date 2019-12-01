@@ -1,11 +1,11 @@
 import React from "react";
-import "../styles/CityHeader.css";
+import Typography from "@material-ui/core/Typography";
 
 function CityHeader(props) {
   return (
-    <h1 className="city-header">
+    <Typography variant="h2" component="h2" paragraph>
       {props.name}, {props.country}
-    </h1>
+    </Typography>
   );
 }
 

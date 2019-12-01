@@ -1,15 +1,14 @@
 import React from "react";
-import "./App.css";
 import Header from "./components/Header";
-import CityList from "./components/CityList";
-const cities = require("./city-weather.json");
+import CityWeather from "./components/CityWeather/CityWeather";
+import Container from "@material-ui/core/Container";
 
 function App() {
   return (
-    <div className="App">
+    <Container>
       <Header title="Weather" />
-      <CityList cities={cities} />
-    </div>
+      <CityWeather />
+    </Container>
   );
 }
 
